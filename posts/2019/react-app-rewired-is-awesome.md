@@ -1,20 +1,18 @@
 ---
-layout: layout.njk 
+layout: post-layout.njk 
 title: How to easily modify your webpack config in Create React app without ejecting?
 date: 2019-10-31
 tags: ['post']
 ---
 
-#  How to easily modify your webpack config in Create React app without ejecting?
-
 If you are using Create React App, I'm sure you had the same problem.
-
+<!-- Excerpt Start -->
 I have been using React for years, using different tools such as gulp, rollup and webpack, so I am well aware on how to configure a build pipeline and customise it to my particular needs. But nowadays I prefer to just use [Create React App](https://github.com/facebook/create-react-app) which works perfectly fine for 95% of the project (assuming you don't want server side rendering or precompiled html).
 
 Just run ``npx create-react-app my-app`` and you are ready to go!
 
 The main issue that I see people having is that while CRA is suitable for a lot of applications, all the configuration is hidden under the hood and can't be modified. This leads to people [ejecting](https://create-react-app.dev/docs/available-scripts/#npm-run-eject) or creating a [fork](https://auth0.com/blog/how-to-configure-create-react-app/) for just adding another module to webpack.
-
+<!-- Excerpt End -->
 ### There must be a better way!!!
 
 I recently came across an awesome tool that make this a all lot easier, [React App Rewired](https://github.com/timarney/react-app-rewired) to the rescue! This tool allows you to easily modify the default CRA webpack config just by adding a single file to your project.

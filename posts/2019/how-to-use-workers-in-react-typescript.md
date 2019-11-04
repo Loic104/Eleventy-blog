@@ -1,14 +1,13 @@
 ---
-layout: layout.njk 
+layout: post-layout.njk 
 title: How to use javascript web workers with Create React App and Typescript
 date: 2019-10-31
 tags: ['post']
 ---
 
-# How to use javascript web workers with Create React App and Typescript
-
+<!-- Excerpt Start -->
 I don't know if you ever used javascript web workers? It is basically the way to have multi thread in javascript. Unfortunately they are a bit cumbersome to use hence why they are not very popular... I invite you to read the [doc]() to see by yourself the heavy syntax.
-
+<!-- Excerpt End -->
 I first came across it 6 years ago when I needed to load STL files in the browser and run lengthy calculations without the website hanging. It worked but it wasn't elegant and difficult to maintain...
 
 Nowadays there are libraries to make the all process a bit easier ([Comlink](https://github.com/GoogleChromeLabs/comlink), [worker-loader](https://github.com/webpack-contrib/worker-loader), [Workerize](https://github.com/developit/workerize), [workerize-loader](https://github.com/developit/workerize-loader)) but even large library like Create React App [don't support it yet](https://github.com/facebook/create-react-app/pull/5886). 
@@ -101,3 +100,9 @@ export default class DashboardPage extends React.Component<IProps, IState> {
 
 ```
 
+___
+
+### Resources:
+
+[https://github.com/developit/workerize-loader/issues/3](https://github.com/developit/workerize-loader/issues/3)
+[]

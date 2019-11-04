@@ -1,5 +1,5 @@
 ---
-layout: layout.njk 
+layout: post-layout.njk 
 title: What is the best way to use async in React, no Redux needed
 date: 2019-10-31
 tags: ['post']
