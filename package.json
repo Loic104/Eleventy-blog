@@ -1,0 +1,28 @@
+{
+  "name": "loic_dev_logs",
+  "version": "0.1.0",
+  "description": "My little blog documenting tips and tricks I learn while coding",
+  "scripts": {
+    "start": "eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicLemerlus/Eleventy-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "eleventy"
+  ],
+  "author": "Loic Le Merlus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicLemerlus/Eleventy-blog/issues"
+  },
+  "homepage": "https://github.com/LoicLemerlus/Eleventy-blog#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "moment": "^2.25.3"
+  }
+}
